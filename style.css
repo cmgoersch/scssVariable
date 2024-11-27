@@ -1,0 +1,42 @@
+@import url(./media.css);
+
+
+:root {
+    --primaryColor: red;
+    --secondaryColor: yellow;
+    --highlight: purple;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    font-size: 1.3rem;;
+}
+
+
+a {
+    color: var(--secondaryColor);
+}
+
+a:hover {
+    color: var(--primaryColor);
+}
+
+/* Main */
+main {
+    background-color: var(--primaryColor);
+    width: 80%;
+    color: var(--secondaryColor);
+    margin: auto;
+
+    p {
+        color: var(--secondaryColor)
+
+    }
+}
+
